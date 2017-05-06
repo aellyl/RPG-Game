@@ -1,0 +1,59 @@
+*{
+	text-align: center;
+	color:black;
+	box-sizing: border-box;
+
+	font-kerning: 2px;
+
+}
+
+body{
+	background-color: #032030;
+	background-image:url("../images/doctorwho.jpg");
+
+
+}
+h1{
+	font-size:4em;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #ddd;
+}
+
+#instruction{
+	font-size: 2em;
+	text-shadow:0 0 8px #fff;
+}
+
+.characDisplay{
+	float:left;
+	border-color: #ddd;
+	border-width: 2px;
+	border-style: solid;
+	/*padding:5px 15px;*/
+	min-width: 150px;
+	font-size:18px;
+}
+
+button{
+	background-color: rgba(255,255,255,0);
+	color:black;
+	letter-spacing: 2px;
+	text-shadow:0 0 12px #fff;
+}
+
+.row{
+	margin:0 auto 2% auto;
+
+}
+
+p{
+	font-size:3em;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+	
+}
+#gameStatus{
+	text-shadow:0 0 8px #fff;
+	font-size: 25px;
+	background-color:rgba(200,200,200,0.6);
+}
